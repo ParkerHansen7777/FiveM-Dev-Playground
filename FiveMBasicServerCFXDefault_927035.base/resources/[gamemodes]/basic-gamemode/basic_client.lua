@@ -1,0 +1,5 @@
+AddEventHandler('onClientMapStart', function()
+  exports.spawnmanager:setAutoSpawn(true)
+  exports.spawnmanager:forceRespawn()
+  exports.enginemanager_client:toggleVehicleIgnition()
+end)

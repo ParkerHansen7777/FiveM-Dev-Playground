@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "local-server"
+  },
+  "server": {
+    "dataPath": "C:/Users/Administrator/Desktop/FiveM-Dev-Playground/FiveMBasicServerCFXDefault_927035.base/"
+  }
+}
