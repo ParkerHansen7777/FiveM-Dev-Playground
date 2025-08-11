@@ -1,4 +1,4 @@
-Citizen.CreateThread(function()
+AddEventHandler('playerSpawned', function()
 		
 		-- get player's Ped ID
 		local playerPed = PlayerPedId()
