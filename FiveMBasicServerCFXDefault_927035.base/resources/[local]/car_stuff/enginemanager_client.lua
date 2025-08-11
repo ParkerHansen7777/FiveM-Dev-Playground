@@ -3,6 +3,7 @@ AddEventHandler('playerSpawned', function()
 		-- get player's Ped ID
 		local playerPed = PlayerPedId()
 		print(playerPed)
+		
 		-- Constant checking if player is in a vehicle or not (every tick oof), temporary, needs to be optimized
 		while true do
 			
@@ -16,7 +17,7 @@ AddEventHandler('playerSpawned', function()
 				
 				-- toggle engine based on current state
 				SetVehicleEngineOn(vehicle, not GetIsVehicleEngineRunning(vehicle), false, true)
-				print("toggled")
+				--print("toggled")
 				
 			end
 			
