@@ -39,6 +39,7 @@ luac.out
 *.x86_64
 *.hex
 
+/admins.json
 /FiveMBasicServerCFXDefault_927035.base/cache
 /FiveMBasicServerCFXDefault_927035.base/server.cfg
 /FiveMBasicServerCFXDefault_927035.base/server.cfg.bkp
