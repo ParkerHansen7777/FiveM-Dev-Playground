@@ -3,7 +3,8 @@ AddEventHandler('playerSpawned', function()
 	-- get player's Ped ID
 	local playerPed = PlayerPedId()
 	print(playerPed)
-	
+	DisplayRadar(false)
+
 	--create 'engine' command
 	RegisterCommand('engine', function()
 		local vehicle = GetVehiclePedIsUsing(playerPed, false)
